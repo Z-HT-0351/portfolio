@@ -28,6 +28,16 @@ const projects = [
         title: 'Medical Device Prototyping',
         date: 'Aug 2023 - Dec 2023 | A*STAR SIMTech',
         details: 'This is a placeholder for detailed project information. Click on individual projects to see more details about each work experience.'
+    },
+    {
+        title: 'School Project Placeholder 1',
+        date: 'Coming soon',
+        details: 'Placeholder content for future school project details.'
+    },
+    {
+        title: 'School Project Placeholder 2',
+        date: 'Coming soon',
+        details: 'Placeholder content for future school project details.'
     }
 ];
 
