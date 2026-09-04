@@ -91,6 +91,27 @@ body {
     text-decoration: none;
     transition: background-color 0.3s ease;
     font-weight: bold;
+    margin-top: 1rem;
+}
+
+.hero-contact {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--white);
+}
+
+.contact-hero {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-hero:hover {
+    color: var(--accent-color);
+}
+
+.contact-divider {
+    margin: 0 0.5rem;
 }
 
 .cta-button:hover {
@@ -161,6 +182,13 @@ body {
     font-size: 0.95rem;
 }
 
+.project-date {
+    padding: 0.5rem 1.5rem 0 !important;
+    color: var(--secondary-color);
+    font-size: 0.85rem !important;
+    font-weight: 500;
+}
+
 .project-tags {
     padding: 1rem 1.5rem;
     display: flex;
@@ -200,6 +228,13 @@ body {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     color: #555;
+}
+
+.about-content h3 {
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
 }
 
 .skills-list {
