@@ -23,6 +23,7 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
+                <img src="profile.jpg" alt="Zhang Haotian" class="profile-photo">
                 <h1>Zhang Haotian</h1>
                 <p>Engineer | Robotics & Automation | Product Development</p>
                 <div class="hero-contact">
@@ -38,7 +39,7 @@
         <section id="projects" class="projects">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card" onclick="openProjectModal(0)">
                     <div class="project-image" style="background-color: #3498db;"></div>
                     <h3>Automated Car Clearance Kiosk</h3>
                     <p class="project-date">Sep 2024 - May 2025 | SUTD Capstone Project</p>
@@ -49,9 +50,10 @@
                         <span class="tag">AI/LLM</span>
                         <span class="tag">Hardware Design</span>
                     </div>
+                    <div class="project-footer">Click to view details →</div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card" onclick="openProjectModal(1)">
                     <div class="project-image" style="background-color: #e74c3c;"></div>
                     <h3>Robotic Control System with FPGA</h3>
                     <p class="project-date">May 2024 - Aug 2024 | A*STAR SIMTech</p>
@@ -62,9 +64,10 @@
                         <span class="tag">Computer Vision</span>
                         <span class="tag">Robotics</span>
                     </div>
+                    <div class="project-footer">Click to view details →</div>
                 </div>
 
-                <div class="project-card">
+                <div class="project-card" onclick="openProjectModal(2)">
                     <div class="project-image" style="background-color: #2ecc71;"></div>
                     <h3>Medical Device Prototyping</h3>
                     <p class="project-date">Aug 2023 - Dec 2023 | A*STAR SIMTech</p>
@@ -75,6 +78,7 @@
                         <span class="tag">Laser Cutting</span>
                         <span class="tag">Medical Device</span>
                     </div>
+                    <div class="project-footer">Click to view details →</div>
                 </div>
             </div>
         </section>
@@ -132,5 +136,20 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <!-- Project Detail Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProjectModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDate" class="modal-date"></p>
+            <div id="modalBody"></div>
+            <div class="modal-footer">
+                <p id="modalPlaceholder" style="color: #999; font-size: 0.9rem; margin-top: 1rem;">
+                    📝 Detailed project information coming soon...
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

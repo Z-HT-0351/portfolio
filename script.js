@@ -12,6 +12,58 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Project Modal Functionality
+const projects = [
+    {
+        title: 'Automated Car Clearance Kiosk',
+        date: 'Sep 2024 - May 2025 | SUTD Capstone Project',
+        details: 'This is a placeholder for detailed project information. Click on individual projects to see more details about each work experience.'
+    },
+    {
+        title: 'Robotic Control System with FPGA',
+        date: 'May 2024 - Aug 2024 | A*STAR SIMTech',
+        details: 'This is a placeholder for detailed project information. Click on individual projects to see more details about each work experience.'
+    },
+    {
+        title: 'Medical Device Prototyping',
+        date: 'Aug 2023 - Dec 2023 | A*STAR SIMTech',
+        details: 'This is a placeholder for detailed project information. Click on individual projects to see more details about each work experience.'
+    }
+];
+
+function openProjectModal(projectIndex) {
+    const modal = document.getElementById('projectModal');
+    const project = projects[projectIndex];
+    
+    document.getElementById('modalTitle').textContent = project.title;
+    document.getElementById('modalDate').textContent = project.date;
+    document.getElementById('modalBody').innerHTML = `<p>${project.details}</p>`;
+    
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeProjectModal() {
+    const modal = document.getElementById('projectModal');
+    modal.classList.remove('show');
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal when clicking outside
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('projectModal');
+    if (event.target === modal) {
+        closeProjectModal();
+    }
+});
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeProjectModal();
+    }
+});
+
 // Intersection Observer for fade-in animation
 const observerOptions = {
     threshold: 0.1,
