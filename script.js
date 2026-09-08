@@ -20,7 +20,6 @@ const projects = [
         details: `
             <h3>Project Overview</h3>
             <p>Designed and developed an automated car clearance kiosk system to improve efficiency, ergonomics, and user experience at Singapore land checkpoints. The solution integrates vehicle identification, automatic kiosk adjustment, computer vision guidance, and ergonomic kiosk design to reduce manual intervention and speed up immigration clearance.</p>
-            <p class="project-source">Information summarized from <a href="https://entuedu-my.sharepoint.com/personal/zh0047an_e_ntu_edu_sg/Documents/Microsoft%20Copilot%20Chat%20%E6%96%87%E4%BB%B6/Capstone%2021%20Final%20Report_FINAL.pdf" target="_blank" rel="noopener noreferrer">Capstone 21 Final Report</a>.</p>
 
             <h3>Key Features</h3>
             <ul>
