@@ -17,7 +17,67 @@ const projects = [
     {
         title: 'Automated Car Clearance Kiosk',
         date: 'Sep 2024 - May 2025 | SUTD Capstone Project',
-        details: 'This is a placeholder for detailed project information. Click on individual projects to see more details about each work experience.'
+        details: `
+            <h3>Project Overview</h3>
+            <p>Designed and developed an automated car clearance kiosk system to improve efficiency, ergonomics, and user experience at Singapore land checkpoints. The solution integrates vehicle identification, automatic kiosk adjustment, computer vision guidance, and ergonomic kiosk design to reduce manual intervention and speed up immigration clearance.</p>
+            <p class="project-source">Information summarized from <a href="https://entuedu-my.sharepoint.com/personal/zh0047an_e_ntu_edu_sg/Documents/Microsoft%20Copilot%20Chat%20%E6%96%87%E4%BB%B6/Capstone%2021%20Final%20Report_FINAL.pdf" target="_blank" rel="noopener noreferrer">Capstone 21 Final Report</a>.</p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Automatic license plate recognition (ALPR)</li>
+                <li>Vehicle guidance system using computer vision</li>
+                <li>Ergonomic immigration kiosk</li>
+                <li>Automated vertical height adjustment based on vehicle type</li>
+                <li>Mobile pre-registration application</li>
+            </ul>
+
+            <h3>My Role: Hardware Fabrication &amp; Electronics Lead</h3>
+            <p>I was primarily responsible for the fabrication, assembly, wiring, and electronics integration of the physical kiosk prototype.</p>
+
+            <h4>Hardware Development</h4>
+            <ul>
+                <li>Fabricated the full-scale kiosk prototype using aluminium extrusion, acrylic panels, plywood structural components, and 3D-printed custom parts.</li>
+                <li>Built and assembled the vertical adjustment mechanism.</li>
+                <li>Integrated linear actuators, a sliding rail system, and structural support components.</li>
+            </ul>
+
+            <h4>Electronics &amp; Embedded Systems</h4>
+            <ul>
+                <li>Designed and implemented the electrical architecture for the vertical adjustment system.</li>
+                <li>Wired and integrated the Arduino microcontroller, dual linear actuators, optical limit switches, power distribution components, and motor control circuitry.</li>
+                <li>Developed and tested actuator control logic for automatic kiosk height adjustment based on vehicle classification data.</li>
+            </ul>
+
+            <h4>System Integration</h4>
+            <ul>
+                <li>Connected hardware subsystems with the higher-level software platform.</li>
+                <li>Implemented communication between the Arduino controller and the vehicle classification system.</li>
+                <li>Conducted hardware debugging, calibration, and reliability testing.</li>
+                <li>Supported end-to-end validation of kiosk movement and safety interlocks.</li>
+            </ul>
+
+            <h3>Technical Skills Demonstrated</h3>
+            <ul>
+                <li>Embedded systems and Arduino programming</li>
+                <li>Electronics integration, electrical wiring, and troubleshooting</li>
+                <li>Actuator control systems</li>
+                <li>Rapid prototyping and mechanical assembly</li>
+                <li>CAD-to-prototype fabrication</li>
+                <li>System integration, user testing, and hardware validation</li>
+            </ul>
+
+            <h3>Project Outcomes</h3>
+            <ul>
+                <li>Developed a working kiosk prototype with automated height adjustment.</li>
+                <li>Achieved a 450 mm adjustment range with synchronized dual-actuator control.</li>
+                <li>Reached full adjustment travel in approximately 5 seconds.</li>
+                <li>Implemented safety feedback using optical limit switches.</li>
+                <li>Contributed to a solution projected to reduce vehicle clearance time by more than 15 seconds while improving accessibility and ergonomics.</li>
+            </ul>
+
+            <h3>Technologies &amp; Tools</h3>
+            <p>Arduino &bull; Linear Actuators &bull; Optical Limit Switches &bull; 3D Printing &bull; Laser Cutting &bull; Soldering &bull; Aluminium Extrusions &bull; Acrylic Fabrication &bull; Fusion 360 &bull; Rhino &bull; Embedded Control Systems &bull; Prototyping &amp; Testing</p>
+        `
     },
     {
         title: 'Robotic Control System with FPGA',

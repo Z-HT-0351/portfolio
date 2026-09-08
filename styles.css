@@ -297,6 +297,42 @@ body {
     margin-bottom: 1.5rem;
 }
 
+#modalBody h3 {
+    color: var(--primary-color);
+    margin: 1.5rem 0 0.5rem;
+}
+
+#modalBody h3:first-child {
+    margin-top: 0;
+}
+
+#modalBody h4 {
+    color: var(--primary-color);
+    margin: 1rem 0 0.35rem;
+}
+
+#modalBody p {
+    color: #555;
+    margin-bottom: 0.8rem;
+}
+
+#modalBody ul {
+    color: #555;
+    margin: 0 0 1rem 1.5rem;
+}
+
+#modalBody li {
+    margin-bottom: 0.35rem;
+}
+
+#modalBody a {
+    color: var(--secondary-color);
+}
+
+#modalBody .project-source {
+    font-size: 0.9rem;
+}
+
 .modal-footer {
     margin-top: 2rem;
     padding-top: 1.5rem;
